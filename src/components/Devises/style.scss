@@ -1,0 +1,50 @@
+@use 'src/styles/vars';
+
+.devises {
+  background-color: #fff;
+  text-align: left;
+  color: #bb5432;
+  font-size: 1.3em;
+  overflow-y: scroll;
+  height: 450px;
+}
+
+.devises-title {
+  font-weight: bold;
+}
+
+.devises .devises-title, .devises-list {
+  padding: 0.6em;
+  border-bottom: 1px solid rgb(197, 191, 191);
+}
+
+.devises-list:last-child {
+  border-bottom: 0;
+}
+
+.devises-list {
+  list-style: none;
+  cursor: pointer;
+  transition: background-color 1s;
+}
+
+.devises-list:hover {
+  background-color: #f1c5b6;
+  transition-duration: 0.2s;
+}
+
+.devises-list--active {
+  background-color: rgb(216, 161, 144);
+}
+
+.devises-search {
+  padding: vars.$gutter;
+  margin-top: vars.$gutter;
+  width: 100%;
+  border: none;
+  color: vars.$color;
+  font: inherit;
+  &:laceholder {
+  color: vars.$color-alt;
+  }
+}

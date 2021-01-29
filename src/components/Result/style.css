@@ -1,0 +1,15 @@
+.result {
+  padding: 2em;
+  background-color: #fff;
+  color: #bb5432;
+}
+
+.result-num {
+  font-weight: bold;
+  font-size: 2.2em;
+  padding-bottom: 0.5em;
+}
+
+.result-devise-name {
+  font-size: 1.7em;
+}

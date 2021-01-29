@@ -1,0 +1,29 @@
+.header {
+  background-color: #bb5432;
+  color: #fff;
+  padding: 1em;
+}
+
+.header-title {
+  font-size: 2.2em;
+  font-weight: bold;
+  padding: 0.5em;
+}
+
+.header-subtitle {
+  padding-bottom: 0.9em;
+  font-size: 1.2em;
+}
+
+.header-input {
+  border: none;
+  background-color: #bb5432;
+  color: white;
+  width: 40px;
+  font-size: 1.5em;
+}
+
+.header-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
