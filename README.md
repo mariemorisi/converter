@@ -1,29 +1,36 @@
-# Converter 
+## About the project
 
-A converter application, all the currencies are from a data file. You can choose a currency by clicking on it, or search a currency in the search bar. 
+This project is a converter application. All the currencies are from a data file. 
+You can choose a currency by clicking on it, or search a currency in the search bar. 
 An input allow you to choose the amount you want to convert. 
 
----
-## Stack : 
+<img src="resultat.gif">
 
-- Javascript with React
-- Sass 
+---
+### Built with 
+
+* Javascript with React
+* Webpack 
+* Babel
+* Sass 
 
 ---
 ## V2
 
 - Fetch datas from an API.
 
----
-## Try it 
+## Getting Started
 
-If you want to try my application, you can :
+To get a local copy up and running follow these simple steps.
 
+### Installation
+
+1. Clone the repo
 ```
 git clone git@github.com:mariemorisi/converter.git
 ```
 
-Install all the dependencies with NPM or Yarn and run the application 
+2. Install all the dependencies with NPM or Yarn and run the application 
 
 > Yarn :
 
@@ -37,3 +44,7 @@ yarn start
 npm i
 npm start
 ```
+
+## Contact
+
+Marie Morisi - m_morisi@yahoo.fr
